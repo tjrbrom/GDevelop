@@ -20,7 +20,7 @@ if (typeof importScripts === 'function') {
   },
   {
     "url": "index.html",
-    "revision": "5af78da27c7a2d5478053deae26b8767"
+    "revision": "74e00dbd28a3d30828a89c65bce64aa2"
   },
   {
     "url": "libGD.js",
@@ -31,8 +31,8 @@ if (typeof importScripts === 'function') {
     "revision": "9c0bf4b0da1a641f2072ac23124d443d"
   },
   {
-    "url": "static/css/1.ba54846c.chunk.css",
-    "revision": "fa22e7aaacff6e142e7f2d39ea98e6a4"
+    "url": "static/css/1.3a4ba060.chunk.css",
+    "revision": "a6379ab23eff4563f68a0652c0c70744"
   },
   {
     "url": "static/css/58.c48131df.chunk.css",
@@ -299,16 +299,16 @@ if (typeof importScripts === 'function') {
     "revision": "2d53db1696b72a3952cf947bfac1b7de"
   },
   {
-    "url": "static/js/browser-app.0ac19657.chunk.js",
-    "revision": "6013966935bf9600ca0ae918bb54de07"
+    "url": "static/js/browser-app.cc1581a5.chunk.js",
+    "revision": "37d6bfc16705e9da6f69bfd49529f4bf"
   },
   {
-    "url": "static/js/main.c45074a0.chunk.js",
-    "revision": "692236f15a82cd194cdf36747a0e8428"
+    "url": "static/js/main.1e619403.chunk.js",
+    "revision": "fc0881dac28f5982575f5ae5ab344398"
   },
   {
-    "url": "static/js/runtime-main.17b9a88a.js",
-    "revision": "da7587f830ab6275e288cea3cb4718ce"
+    "url": "static/js/runtime-main.2553d17e.js",
+    "revision": "32aceb1715298f300c09b1b8a1f17e63"
   },
   {
     "url": "CppPlatform/Extensions/AESicon16.png",
