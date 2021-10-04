@@ -4,6 +4,23 @@ if (typeof importScripts === 'function') {
   );
   /* global workbox */
   if (workbox) {
+    // Will be replaced by make-service-worker.js to include the proper version.
+    const VersionMetadata = {"version":"5.0.0-beta119","gitHash":"41988322ee314c0fc7df667a166af450f8328394","versionWithHash":"5.0.0-beta119-41988322ee314c0fc7df667a166af450f8328394"};
+
+    // Contrary to other static assets (JS, CSS, HTML), libGD.js/wasm are not
+    // versioned in their filenames. Instead, we version using a query string
+    // (see src/index.js where it's loaded with the same query string).
+    workbox.precaching.precacheAndRoute([
+      {
+        url: `libGD.js?cache-buster=${VersionMetadata.versionWithHash}`,
+        revision: null, // Revision is null because versioning included in the URL.
+      },
+      {
+        url: `libGD.wasm?cache-buster=${VersionMetadata.versionWithHash}`,
+        revision: null, // Revision is null because versioning included in the URL.
+      },
+    ]);
+
     /* injection point for manifest files.  */
     workbox.precaching.precacheAndRoute([
   {
@@ -20,19 +37,15 @@ if (typeof importScripts === 'function') {
   },
   {
     "url": "index.html",
-    "revision": "e783a9e0fd48bd688263caa891796e78"
-  },
-  {
-    "url": "libGD.js",
-    "revision": "771922a32b462a4f36e2fe2317352b0e"
+    "revision": "e12d9315d2304548fb7443adadca59d7"
   },
   {
     "url": "static/css/0.d2811110.chunk.css",
     "revision": "655c393b3f2506429d18921e4234072a"
   },
   {
-    "url": "static/css/1.a4fb7492.chunk.css",
-    "revision": "09a0506b27052f7a952cca9471e53ae9"
+    "url": "static/css/1.12849d34.chunk.css",
+    "revision": "2526cfcdd410443852067b86a83b7ecf"
   },
   {
     "url": "static/css/60.f436ad20.chunk.css",
@@ -303,12 +316,8 @@ if (typeof importScripts === 'function') {
     "revision": "d77df2afefb883e6bb58bd29624eb29a"
   },
   {
-    "url": "static/js/runtime-main.d0f360f6.js",
-    "revision": "482e9e8db725d07fc85127a9c462e19f"
-  },
-  {
-    "url": "libGD.wasm",
-    "revision": "d811f951b27a0500d7efa91fd4663667"
+    "url": "static/js/runtime-main.b16a6687.js",
+    "revision": "a36650d1680e1192f1067cb23a8994d6"
   },
   {
     "url": "CppPlatform/Extensions/AESicon16.png",
@@ -5004,6 +5013,19 @@ if (typeof importScripts === 'function') {
     workbox.routing.registerNavigationRoute('/index.html', {
       blacklist: [/^\/_/, /\/[^\/]+\.[^\/]+$/],
     });
+
+    // Cache resources from GDevelop cloudfront server (CORS enabled).
+    workbox.routing.registerRoute(
+      /https:\/\/resources\.gdevelop-app\.com\/.*$/,
+      workbox.strategies.networkFirst({
+        cacheName: 'gdevelop-resources-cache',
+        plugins: [
+          new workbox.expiration.Plugin({
+            maxEntries: 500,
+          }),
+        ],
+      })
+    );
 
     // Cache resources from GDevelop cloudfront server (CORS enabled).
     workbox.routing.registerRoute(
