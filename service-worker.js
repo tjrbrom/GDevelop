@@ -5,7 +5,7 @@ if (typeof importScripts === 'function') {
   /* global workbox */
   if (workbox) {
     // Will be replaced by make-service-worker.js to include the proper version.
-    const VersionMetadata = {"version":"5.0.124","gitHash":"b3ea46d7e620ae40a86296a3f1bc792038c4265c","versionWithHash":"5.0.124-b3ea46d7e620ae40a86296a3f1bc792038c4265c"};
+    const VersionMetadata = {"version":"5.0.125","gitHash":"e5158bc8bbfd1f350bb996a8f5b008a58fb55744","versionWithHash":"5.0.125-e5158bc8bbfd1f350bb996a8f5b008a58fb55744"};
 
     // Contrary to other static assets (JS, CSS, HTML), libGD.js/wasm are not
     // versioned in their filenames. Instead, we version using a query string
@@ -37,15 +37,15 @@ if (typeof importScripts === 'function') {
   },
   {
     "url": "index.html",
-    "revision": "90f56a48b23dd1146d596d460da06da1"
+    "revision": "b030063a48b97991f56625dbc246e428"
   },
   {
     "url": "static/css/0.9ae525ea.chunk.css",
     "revision": "9c0bf4b0da1a641f2072ac23124d443d"
   },
   {
-    "url": "static/css/1.f542795a.chunk.css",
-    "revision": "92deba9f6be056d78f67e1596de8b606"
+    "url": "static/css/1.9300ac76.chunk.css",
+    "revision": "589629282aa24f26fc42531ece7b5c13"
   },
   {
     "url": "static/css/60.c012a011.chunk.css",
@@ -76,252 +76,252 @@ if (typeof importScripts === 'function') {
     "revision": "69d8fff5f7e23d370b8fa4fb450617f5"
   },
   {
-    "url": "static/js/0.e71e5d34.chunk.js",
-    "revision": "72a53278006ba132ad4931d598347cfb"
+    "url": "static/js/0.85aa4827.chunk.js",
+    "revision": "06d03e8d14a8dc235ff427ecbb086c58"
   },
   {
-    "url": "static/js/1.b6cf75a2.chunk.js",
-    "revision": "9c177af91113bc7b4de6fdd10bf2e444"
+    "url": "static/js/1.40a9f624.chunk.js",
+    "revision": "5cd051767fffb4d60f0ea168bde9332e"
   },
   {
-    "url": "static/js/100.9a24f5e7.chunk.js",
-    "revision": "9bdff2aaecfde7351e4f006ea6b1ae7e"
+    "url": "static/js/100.18716a31.chunk.js",
+    "revision": "a81963dea1eba8d75ec6bcd0f32e5c29"
   },
   {
-    "url": "static/js/101.be1f4654.chunk.js",
-    "revision": "18f783c26ab95117b52deb04a6fa0487"
+    "url": "static/js/101.f89c2ee0.chunk.js",
+    "revision": "b0efdaf8ae3677b2035368cbb287dcaa"
   },
   {
-    "url": "static/js/102.09a9460e.chunk.js",
-    "revision": "66eb7f644786158983ab4d2d12d9540a"
+    "url": "static/js/102.6c17b894.chunk.js",
+    "revision": "5b6e605c008918e9a241877a47ab8fa1"
   },
   {
-    "url": "static/js/103.f47cc873.chunk.js",
-    "revision": "e8977889dbe9c4056d07dc7e9cea9306"
+    "url": "static/js/103.813a1f3a.chunk.js",
+    "revision": "731ec817b5a1d69ca125545bce965c80"
   },
   {
-    "url": "static/js/104.ac844ec8.chunk.js",
-    "revision": "6ffa18a8f42f873b7a6a115813e235c3"
+    "url": "static/js/104.be3df0d1.chunk.js",
+    "revision": "0cc5a129d27178acef1573ff125ec5c6"
   },
   {
-    "url": "static/js/105.8fd4efa8.chunk.js",
-    "revision": "ea1ad90de2952f865f541a6bc5f0b0b9"
+    "url": "static/js/105.1c5c9f0a.chunk.js",
+    "revision": "4b3e5fb7cfc75bc3fb985f372690c4ff"
   },
   {
-    "url": "static/js/106.c1f4aec7.chunk.js",
-    "revision": "2ff157ca3e96884764c34a67d0b71db4"
+    "url": "static/js/106.c33469dd.chunk.js",
+    "revision": "48abba420a65b18190b82d30681fdb8b"
   },
   {
-    "url": "static/js/107.84615f52.chunk.js",
-    "revision": "966b82e4f2c1bf13ca6795c6dc515810"
+    "url": "static/js/107.a160d305.chunk.js",
+    "revision": "52cffc8a8891c8d5500bc115561584bd"
   },
   {
-    "url": "static/js/108.db5aa665.chunk.js",
-    "revision": "ff530f13b20595873a268d3775b4f66e"
+    "url": "static/js/108.9891b057.chunk.js",
+    "revision": "06a7c08e8c60e6ebc1c25b37d2ffffb3"
   },
   {
-    "url": "static/js/109.94eb7bea.chunk.js",
-    "revision": "01d2c9015980266133376d99c231209e"
+    "url": "static/js/109.d983c39d.chunk.js",
+    "revision": "3ade2a0388639baac75babcdde30dea4"
   },
   {
-    "url": "static/js/110.95bdcc28.chunk.js",
-    "revision": "96d6a67e5f9175be5b40194b0f15163e"
+    "url": "static/js/110.625cc7c3.chunk.js",
+    "revision": "4556c6c85f2928be482a2b4a5f48e3f8"
   },
   {
-    "url": "static/js/111.4e33ba3f.chunk.js",
-    "revision": "f99d8df2eaab26dccb60cbcbc08df41d"
+    "url": "static/js/111.c971e399.chunk.js",
+    "revision": "e259b63ad5da2e3b2201207552400ceb"
   },
   {
-    "url": "static/js/112.810f3479.chunk.js",
-    "revision": "36da61e747d8d17db57aa6345029afaf"
+    "url": "static/js/112.43717230.chunk.js",
+    "revision": "d3d92c8ea36f3670c07721138665475c"
   },
   {
-    "url": "static/js/113.c7c123f8.chunk.js",
-    "revision": "bf04cf6d9f54f239ef500b45dcc84f75"
+    "url": "static/js/113.b200dda5.chunk.js",
+    "revision": "df6061aa4587b8ab8d77dd40e8204f65"
   },
   {
-    "url": "static/js/114.4a074594.chunk.js",
-    "revision": "8724ad39974262449126c5ea25c6d57a"
+    "url": "static/js/114.b83640c5.chunk.js",
+    "revision": "4722b053f640cb06cd643ca77ea11418"
   },
   {
-    "url": "static/js/115.2bde95f6.chunk.js",
-    "revision": "72e161839c6aa0346dc9e961ab208464"
+    "url": "static/js/115.cc32204f.chunk.js",
+    "revision": "d90419a17569d02b87f570f550157d83"
   },
   {
-    "url": "static/js/2.89a4490d.chunk.js",
-    "revision": "0c6754a6cb2927671cafa7e0e67bc3b8"
+    "url": "static/js/2.48b4023d.chunk.js",
+    "revision": "795dc9771e1e06d47a14bf514319afc6"
   },
   {
-    "url": "static/js/60.3912af9a.chunk.js",
-    "revision": "62bb828a34af406930706a7f4921385b"
+    "url": "static/js/60.3fb6bc55.chunk.js",
+    "revision": "f7029b691b164ce824e7a954f956807c"
   },
   {
-    "url": "static/js/61.cb175572.chunk.js",
-    "revision": "76db32fc1cf8bb595e15e86afad11cfd"
+    "url": "static/js/61.80613f9c.chunk.js",
+    "revision": "863d7c247b94373f5b6e31b260bd63e0"
   },
   {
-    "url": "static/js/62.7277c361.chunk.js",
-    "revision": "2723cdc7f2096ff762d4c71e785d6a9e"
+    "url": "static/js/62.da1c5465.chunk.js",
+    "revision": "ea2cd2135d9f103be3a85bdbc88e2fd8"
   },
   {
-    "url": "static/js/63.b305af68.chunk.js",
-    "revision": "bdfbbc8bcc4f1ad9eb4b096bd35f8513"
+    "url": "static/js/63.4501d779.chunk.js",
+    "revision": "6384b03e28a03c2ff6e033b8aba1e078"
   },
   {
-    "url": "static/js/64.72bb8095.chunk.js",
-    "revision": "49489b60f03286a41f435cdad0b85130"
+    "url": "static/js/64.74eb0d1a.chunk.js",
+    "revision": "be1d0e1cc104f0704b6ccd998b408c9f"
   },
   {
-    "url": "static/js/65.ca1099a8.chunk.js",
-    "revision": "772d16f29fee339f26291ebe88c6c935"
+    "url": "static/js/65.f61b8c48.chunk.js",
+    "revision": "3e9ce9a2ba1887d740b4815069878e36"
   },
   {
-    "url": "static/js/66.867c574b.chunk.js",
-    "revision": "37d4e49de08b61c4ad174db7be94d979"
+    "url": "static/js/66.10f27b59.chunk.js",
+    "revision": "079316ecf20202a8a53af39d0c61f636"
   },
   {
-    "url": "static/js/67.edfe43a6.chunk.js",
-    "revision": "07d797df8a1800554d2b57c4381295df"
+    "url": "static/js/67.0cbd46f1.chunk.js",
+    "revision": "505fcfd82441a536a30e54b3c94f57f7"
   },
   {
-    "url": "static/js/68.3fc2bddf.chunk.js",
-    "revision": "caeee74e76b0633746271ef8bdd65f64"
+    "url": "static/js/68.6c78f950.chunk.js",
+    "revision": "428bfba159ac23be67b826eca60880e1"
   },
   {
-    "url": "static/js/69.1139a028.chunk.js",
-    "revision": "08eae85db54633cbde067db19384abe4"
+    "url": "static/js/69.dc78d628.chunk.js",
+    "revision": "3499a8f47a2e1dc94b0ce98dbb6438d5"
   },
   {
-    "url": "static/js/70.03cf41ec.chunk.js",
-    "revision": "e146f93524f26513ebc7bf2da74c491b"
+    "url": "static/js/70.1667c884.chunk.js",
+    "revision": "4e6efd54604f09132ac2c802dd59982b"
   },
   {
-    "url": "static/js/71.97ca50ba.chunk.js",
-    "revision": "c8ec82207aeda5b3e0cf39cdc908116a"
+    "url": "static/js/71.1128bf72.chunk.js",
+    "revision": "acb25f0379791758de3424eb84883eee"
   },
   {
-    "url": "static/js/72.6091df8c.chunk.js",
-    "revision": "1cf6818ebe900ce4a9572957eabe3792"
+    "url": "static/js/72.01a827e7.chunk.js",
+    "revision": "cdd12dba753a99d5b1ef2c0c26f7017f"
   },
   {
-    "url": "static/js/73.cda9f104.chunk.js",
-    "revision": "bb5f85fac6aa74e2fbbc11d3fb39159f"
+    "url": "static/js/73.8f79630d.chunk.js",
+    "revision": "71a47d6eb840a28a300440ac7ee85325"
   },
   {
-    "url": "static/js/74.f412d128.chunk.js",
-    "revision": "d6ff30a13d3094d58b59d6038b4e78cf"
+    "url": "static/js/74.9a30aa8e.chunk.js",
+    "revision": "0ffae51799482eb2f587496d673243d8"
   },
   {
-    "url": "static/js/75.c7c5116d.chunk.js",
-    "revision": "2f0fbae2ecf0cf41eac94bd53b54346a"
+    "url": "static/js/75.cd154234.chunk.js",
+    "revision": "1e1a24049753a50ede9a354666231e98"
   },
   {
-    "url": "static/js/76.a3bc109b.chunk.js",
-    "revision": "60a1e1f6bd2fa9a4b6cf193564a4032c"
+    "url": "static/js/76.5b3e1a9b.chunk.js",
+    "revision": "14b6584fdbaa046fffb39ecf099a0490"
   },
   {
-    "url": "static/js/77.57dacb7e.chunk.js",
-    "revision": "99560e8c063d110d4361bb87fe32049a"
+    "url": "static/js/77.23471502.chunk.js",
+    "revision": "1501686d269a5040de3f2066916c34b3"
   },
   {
-    "url": "static/js/78.82b754a4.chunk.js",
-    "revision": "70160f20d10484100041ae0fb423cfa6"
+    "url": "static/js/78.0cccfedb.chunk.js",
+    "revision": "a5628ad341f50fb81691e50eaf485b59"
   },
   {
-    "url": "static/js/79.fc7c00ed.chunk.js",
-    "revision": "33f52fa5f156f571a1782dfe5c48d94b"
+    "url": "static/js/79.cdeaa077.chunk.js",
+    "revision": "6360f37baeb6ba49523b4fdc70c4e3fd"
   },
   {
-    "url": "static/js/80.118422cc.chunk.js",
-    "revision": "6da2b3df31fd16a1d1044b26b9f7e09f"
+    "url": "static/js/80.73ecb769.chunk.js",
+    "revision": "6fe43c579e6ca5b5c3e66434d73a798f"
   },
   {
-    "url": "static/js/81.84b00dee.chunk.js",
-    "revision": "884b12db2b6f6dddfdf952fbfb3ab2dd"
+    "url": "static/js/81.fd51ad51.chunk.js",
+    "revision": "e15edf3891022a25b87d0ccb6f2001da"
   },
   {
-    "url": "static/js/82.fd3a375e.chunk.js",
-    "revision": "f2eaea85c12a52f3c74b8b297760d340"
+    "url": "static/js/82.6127bc4d.chunk.js",
+    "revision": "c2e5120f4d888df6f44c355717b31560"
   },
   {
-    "url": "static/js/83.bed1efec.chunk.js",
-    "revision": "eda683d30ac748ae34bb7791f4559231"
+    "url": "static/js/83.d1c1dd02.chunk.js",
+    "revision": "98387727e9fc22468d114c4968781997"
   },
   {
-    "url": "static/js/84.bec883ea.chunk.js",
-    "revision": "6817ca943e2d7baeec393a42a134f5a0"
+    "url": "static/js/84.4e09a480.chunk.js",
+    "revision": "7573c95dcc2fd9459c8ef8df4c0f0322"
   },
   {
-    "url": "static/js/85.8525850d.chunk.js",
-    "revision": "9280017af7a508e656229ac98316f512"
+    "url": "static/js/85.7b43a0e8.chunk.js",
+    "revision": "b9aa1ded93a5272cbafd2b7287b8d68b"
   },
   {
-    "url": "static/js/86.be2e732d.chunk.js",
-    "revision": "b4027015f42d776e42f3781c26669b73"
+    "url": "static/js/86.76f60447.chunk.js",
+    "revision": "908ca916154c911f1da2f03043bb4c2f"
   },
   {
-    "url": "static/js/87.73871594.chunk.js",
-    "revision": "9f34580fc756a328b0fd207601bd158f"
+    "url": "static/js/87.7a5de04a.chunk.js",
+    "revision": "18901b6214115a4da77913a413447d3a"
   },
   {
-    "url": "static/js/88.09a6a84d.chunk.js",
-    "revision": "a0c25baae68a63bbd23b7569058bdb47"
+    "url": "static/js/88.c7ee1c98.chunk.js",
+    "revision": "9e8258a28fe614cd8df17f1c39a61fda"
   },
   {
-    "url": "static/js/89.4b6410fc.chunk.js",
-    "revision": "971bea19a8b7c6e0338daf4812848cad"
+    "url": "static/js/89.41ad4fa5.chunk.js",
+    "revision": "d05fa942a5426ce440e5d2defec1fd72"
   },
   {
-    "url": "static/js/90.6470fcc6.chunk.js",
-    "revision": "493f4987e76c32117f8b3d75d73df411"
+    "url": "static/js/90.e773e2b8.chunk.js",
+    "revision": "f171846252e49185b565eadf04537d77"
   },
   {
-    "url": "static/js/91.0affcebb.chunk.js",
-    "revision": "ef8c02b6d4107dff7f24ab796843beb5"
+    "url": "static/js/91.0a991c64.chunk.js",
+    "revision": "02acd07c2e547299cfe41f72953e8dde"
   },
   {
-    "url": "static/js/92.de9a564d.chunk.js",
-    "revision": "057a5f292fce27a2657339c9e508c6ec"
+    "url": "static/js/92.d83502e2.chunk.js",
+    "revision": "24b6cb87f6516c475ade8689431fe8ab"
   },
   {
-    "url": "static/js/93.e5268e25.chunk.js",
-    "revision": "ebc1c6f29bd62e7a49ecfa7cbf2a9806"
+    "url": "static/js/93.dbabca90.chunk.js",
+    "revision": "ec62f082de8feb87e1ae2bc7ce10d8b6"
   },
   {
-    "url": "static/js/94.ea3a10d7.chunk.js",
-    "revision": "9c33a7249e113e0874be4d36f7fc94e7"
+    "url": "static/js/94.7e653f23.chunk.js",
+    "revision": "4201ebc8295bb04d2609d52dab04d301"
   },
   {
-    "url": "static/js/95.67f1724f.chunk.js",
-    "revision": "7a1223884a05bb8853c6f7ec46297dd5"
+    "url": "static/js/95.7e88c5f4.chunk.js",
+    "revision": "c63c662a4286ccfd0d4d98c200be1ec3"
   },
   {
-    "url": "static/js/96.cbef6445.chunk.js",
-    "revision": "9aab05c3db1725271b1bb0e8f473eb4a"
+    "url": "static/js/96.93d1b88b.chunk.js",
+    "revision": "bc8e5881339b255c2057e703b7c10480"
   },
   {
-    "url": "static/js/97.25739925.chunk.js",
-    "revision": "7f01a87800192fdd5106c001c0bbc57a"
+    "url": "static/js/97.ddce7c7e.chunk.js",
+    "revision": "21fdb98310c527ccbb9bae70fe2657b1"
   },
   {
-    "url": "static/js/98.d06c57d0.chunk.js",
-    "revision": "6312c7bdf8104b6b8614027daf3ffe3a"
+    "url": "static/js/98.41c0f95b.chunk.js",
+    "revision": "58d7f762617e572a9dabd42fc0f33cb8"
   },
   {
-    "url": "static/js/99.2901ad4d.chunk.js",
-    "revision": "9f1bdabe071d46643f964e5980602e6b"
+    "url": "static/js/99.2fedf516.chunk.js",
+    "revision": "f117bc8ea0a4cd51e61c48fc3aaf6d0a"
   },
   {
-    "url": "static/js/browser-app.635b4076.chunk.js",
-    "revision": "2d6dba5209caffc2eba5d3486b2f9f2a"
+    "url": "static/js/browser-app.4805699e.chunk.js",
+    "revision": "cc0697d9b4c26cee24fe16c06ef5297a"
   },
   {
-    "url": "static/js/main.8a18a669.chunk.js",
-    "revision": "eb1da59c3f32e8e09b8279d3684ea3e8"
+    "url": "static/js/main.c28aa170.chunk.js",
+    "revision": "c94acb2246033a1c201c4bfa29b5742d"
   },
   {
-    "url": "static/js/runtime-main.40bb4c8e.js",
-    "revision": "ed26794e0b3975fb081c8e5f8e1fde3b"
+    "url": "static/js/runtime-main.cf7d78b9.js",
+    "revision": "955b3ef30afe7af3e3b533aa725ce3be"
   },
   {
     "url": "CppPlatform/Extensions/AESicon16.png",
