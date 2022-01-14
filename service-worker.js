@@ -5,7 +5,7 @@ if (typeof importScripts === 'function') {
   /* global workbox */
   if (workbox) {
     // Will be replaced by make-service-worker.js to include the proper version.
-    const VersionMetadata = {"version":"5.0.125","gitHash":"e5158bc8bbfd1f350bb996a8f5b008a58fb55744","versionWithHash":"5.0.125-e5158bc8bbfd1f350bb996a8f5b008a58fb55744"};
+    const VersionMetadata = {"version":"5.0.126","gitHash":"d49d765ec05d0454b365031d793c1702647877d8","versionWithHash":"5.0.126-d49d765ec05d0454b365031d793c1702647877d8"};
 
     // Contrary to other static assets (JS, CSS, HTML), libGD.js/wasm are not
     // versioned in their filenames. Instead, we version using a query string
@@ -37,15 +37,15 @@ if (typeof importScripts === 'function') {
   },
   {
     "url": "index.html",
-    "revision": "b030063a48b97991f56625dbc246e428"
+    "revision": "e49265495290a69fb0cbe04947640dee"
   },
   {
     "url": "static/css/0.9ae525ea.chunk.css",
     "revision": "9c0bf4b0da1a641f2072ac23124d443d"
   },
   {
-    "url": "static/css/1.9300ac76.chunk.css",
-    "revision": "589629282aa24f26fc42531ece7b5c13"
+    "url": "static/css/1.b4e559eb.chunk.css",
+    "revision": "38283a72ae0dd056f0248393bdaa0e00"
   },
   {
     "url": "static/css/60.c012a011.chunk.css",
@@ -76,12 +76,12 @@ if (typeof importScripts === 'function') {
     "revision": "69d8fff5f7e23d370b8fa4fb450617f5"
   },
   {
-    "url": "static/js/0.85aa4827.chunk.js",
-    "revision": "06d03e8d14a8dc235ff427ecbb086c58"
+    "url": "static/js/0.ca3b3f1d.chunk.js",
+    "revision": "e9cdfc1ace4e115f810641e02e6ebf38"
   },
   {
-    "url": "static/js/1.40a9f624.chunk.js",
-    "revision": "5cd051767fffb4d60f0ea168bde9332e"
+    "url": "static/js/1.73452893.chunk.js",
+    "revision": "4e9d2d15ae6b698379c846b472d867db"
   },
   {
     "url": "static/js/100.18716a31.chunk.js",
@@ -156,16 +156,16 @@ if (typeof importScripts === 'function') {
     "revision": "f7029b691b164ce824e7a954f956807c"
   },
   {
-    "url": "static/js/61.80613f9c.chunk.js",
-    "revision": "863d7c247b94373f5b6e31b260bd63e0"
+    "url": "static/js/61.cb175572.chunk.js",
+    "revision": "76db32fc1cf8bb595e15e86afad11cfd"
   },
   {
-    "url": "static/js/62.da1c5465.chunk.js",
-    "revision": "ea2cd2135d9f103be3a85bdbc88e2fd8"
+    "url": "static/js/62.771448b1.chunk.js",
+    "revision": "fb3a1ac6d6a61c55ba470bd1495bfd65"
   },
   {
-    "url": "static/js/63.4501d779.chunk.js",
-    "revision": "6384b03e28a03c2ff6e033b8aba1e078"
+    "url": "static/js/63.c34d8c27.chunk.js",
+    "revision": "f49f0b68076930513a698059ff763bcf"
   },
   {
     "url": "static/js/64.74eb0d1a.chunk.js",
@@ -312,16 +312,16 @@ if (typeof importScripts === 'function') {
     "revision": "f117bc8ea0a4cd51e61c48fc3aaf6d0a"
   },
   {
-    "url": "static/js/browser-app.4805699e.chunk.js",
-    "revision": "cc0697d9b4c26cee24fe16c06ef5297a"
+    "url": "static/js/browser-app.72084cb2.chunk.js",
+    "revision": "60cf228c12052f32edbd01b6f75d0276"
   },
   {
-    "url": "static/js/main.c28aa170.chunk.js",
-    "revision": "c94acb2246033a1c201c4bfa29b5742d"
+    "url": "static/js/main.93025333.chunk.js",
+    "revision": "a1d56bc4d91e490afcee60d2cb8bbf77"
   },
   {
-    "url": "static/js/runtime-main.cf7d78b9.js",
-    "revision": "955b3ef30afe7af3e3b533aa725ce3be"
+    "url": "static/js/runtime-main.599cf50d.js",
+    "revision": "20f878b3757eeb16d33eb16bfd4332b2"
   },
   {
     "url": "CppPlatform/Extensions/AESicon16.png",
